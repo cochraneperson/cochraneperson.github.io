@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- WFY
+Jun 11, 2023 CIS133DA
+Project 1: Survey Form 
+-->
+  <!-- Start of Head -->
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- Start of Body -->
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Survey Form For A Generic Fast Food Restaurant</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org' >
+      <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Your name here" required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="Your email here" required /></label>
+        <!-- type="number" does not accept floating pointe numbers -->
+        <label for="number" id="number-label">Enter A Number: <input id="number" type="number" name="numer" min="-10" max="10" placeholder="Type a  number"  /></label>        
+      </fieldset>
+
+      <!-- Drop down element -->
+      <fieldset>
+        <label for="food">Food Preference
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Hamburger</option>
+            <option value="2">French Fries</option>
+            <option value="3">Kung Pow Chicken</option>
+            <option value="4">Anchovie Pizza</option>       
+            <option value="5">Fried Chicken</option>                     
+            <option value="6">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <!-- Radio button -->
+      <fieldset>
+        <label for="beverage">Beverage Preference        
+          <label for="soda-coke"><input id="soda-coke" type="radio" name="beverage-type" value="soda-coke" class="inline" /> Coco-Cola</label>
+          <label for="sode-pepsi"><input id="sode-pepsi" type="radio" name="beverage-type" value="soda-pepsi" class="inline" /> Pepsi</label>
+          <label for="sode-coffee"><input id="sode-coffee" type="radio" name="beverage-type" value="soda-coffee" class="inline" /> Coffee</label>
+          <label for="sode-tea"><input id="sode-tea" type="radio" name="beverage-type" value="soda-tea" class="inline" /> Tea</label>      
+          <label for="sode-lemonade"><input id="sode-lemonade" type="radio" name="beverage-type" value="soda-lemonade" class="inline" /> Lemonade</label>                  
+        </label>  
+      </fieldset>
+
+      <!-- Check box -->
+      <fieldset>
+        <label for="sauce">Sauce Preference
+          <label><input id="sauce_honeymustard" type="checkbox" name="sauce" value="honey_mustard" class="inline" /> Honey Mustard</label>  
+          <label><input id="sauce_bbq" type="checkbox" name="sauce" value="sauce_bbq" class="inline" /> BBQ</label>
+          <label><input id="sauce_sweetsour" type="checkbox" name="sauce" value="sauce_sweetsour" class="inline" /> Sweat & Sour</label>  
+          <label><input id="sauce_chili" type="checkbox" name="sauce" value="sauce_chili" class="inline" /> Chili</label>            
+        </label>    
+        <label for="Comment">Additional Comment:
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter additional comment here..."></textarea>
+        </label>            
+      </fieldset>
+
+      <!-- Submit Button -->
+      <fieldset>  
+        <input id="submit" type="submit" value="Submit" />
+      </fieldset>    
+    </form>
+  <!-- End of Body -->
+  </body>
+</html>
+
+<!--
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+
+
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+
+      <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+      <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+      <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+
+        <label for="sauce_honeymustard">
+          <input id="sauce_honeymustard" type="checkbox" name="sauce" value="honey_mustard" class="inline" /> Honey Mustard
+        </label>        
+        <label for="sauce_bbq">
+          <input id="sauce_bbq" type="checkbox" name="sauce" value="sauce_bbq" class="inline" /> BBQ
+        </label>  
+        <label for="sauce_chilli">
+          <input id="sauce_chilli" type="checkbox" name="sauce" value="sauce_chilli" class="inline" /> Chilli
+        </label>  
+
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
