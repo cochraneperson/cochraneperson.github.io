@@ -1,0 +1,134 @@
+
+/* id="XYZ"   reference #XYZ */
+/* class=ABC  reference .ABC */
+
+/* 
+	<!--
+	Wai Fai Yee
+	Tribute Project (Project #2)
+	Date Jun 28th, 2023
+	Mesa Community College CIS 133DA Web Design/development level 1
+	-->
+*/
+
+/* margin-left and margin-right set to "auto" for centering */
+#image{
+    display:block;
+    width: 50%;
+    max-width:100%;    
+    height:auto;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: black;
+    /*
+    width:100%;    
+    */    
+}
+#img-caption {
+    text-align: center;
+    font-size:35px;
+    font-weight: bolder;
+}
+
+
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+.tribute_class_div {
+    border: 2px solid blue;
+    background-color: #fff2e6;    
+    margin-bottom: 5px;   
+}
+#tribute-info {
+    padding-top: 0;
+    padding-left: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+#tribute-link {
+    padding-left: 10px;
+}
+
+
+
+/* Spacing between list items in unordered list */
+ul li { 
+    margin-bottom: 1px; 
+}
+
+
+/* Navigation items
+.navitem {
+    display: "inline-block";
+}
+*/
+/* Selector for unordered list in nav bar */
+.nav01 ul {
+	list-style-type: none;
+	background-color: rgb(63, 55, 55);
+	padding: 6px;
+	margin: 6px;  
+	overflow: hidden;
+}
+/* Selector for <a> item within nav01 class */
+.nav01 a{
+	color: yellow;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+    font-family: "Verdana", "Tahoma", "sans-serif";       
+}
+/* Change color when mouse hovers over list item */
+.nav01 a:hover {
+	background-color: rgb(43, 39, 38 );
+}	
+/* For horizontal navigation bar. Must also include 
+overflow:hidden in .navbar u1 {
+*/
+.nav01 li{
+	float: right;
+}
+
+
+/* Set reading width of the areas with paragraphs should not exceed the 
+standard 120 characters per line */
+html {
+    margin:    0 auto;
+    max-width: 700px;
+}
+
+/* Do not display class related info yet */
+.hidden {
+    display: none;
+}
+
+
+/* font-size is 16px based on recommendation */
+.sec01 {
+    border: 2px solid blue;  
+    margin-bottom: 5px; 
+    font-size: 16px;
+    color: black;
+    background-color: #fff2e6;
+     
+}
+
+
+
+
+.foot01{
+    border: 2px solid blue;
+    background-color: #ffffe6;      
+    background-color: #fff2e6;         
+   
+}
+

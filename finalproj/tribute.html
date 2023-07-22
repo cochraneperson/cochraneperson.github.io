@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Wai Fai Yee
+Ju1 21, 2023 CIS133DA
+Tribute part of final project
+-->
+
+<!-- HEAD  -->
+<head>
+	<!--
+	Wai Fai Yee
+	Tribute Project (Project #2)
+	Date Jun 28th, 2023
+	Mesa Community College CIS 133DA Web Design/development level 1
+	-->	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is my tribute to Perl">
+	<title>Tribute To Perl</title>
+    <link rel="stylesheet" href="/styles/tribute.css" />
+	
+</head>
+
+<!-- BODY  -->
+<body>
+	
+	<!-- Within the header, use unorder list to establish markers for region of page to jump to 
+	for accessibility purposes. https://www.w3schools.com/howto/howto_css_subnav.asp
+	-->
+	<header style="background-color: black;" >
+		<h1 id="title">Tribute To Perl</h1>
+		<nav class="nav01">
+			<ul>				
+				<li class='navitem'><a href="index.html">Home</a></li>
+				<li class='navitem'><a href="survey.html">Survey</a></li>
+				<li class='navitem'><a href="tribute.html">Tribute</a></li>   
+				<li class='navitem'><a href="products.html">Products</a></li>  	
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Mark region to jump to. Connection is via id="XYZ" where "XYZ" is the marker-->
+
+
+
+	<main id="main">
+
+		<!-- Here is where I include picture of Perl and caption for picture 
+		Some of the id's are included in spec. These id's are also used as selectors
+		in tribute.css
+		--> 
+		<figure id="img-div">
+			<img id="image" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230305135148/Perl-tutorial.png" alt="StarTrek Undiscovered Country">  
+			<figcaption id="img-caption">The Swiss Army Knife For Scripting</figcaption> 
+		</figure>
+
+		<div class="tribute_class_div">
+  			<p id="tribute-info">Perl has powerful string and regular expression support that makes text processing easy. 
+				It is widely used in different environment such as engineering and data-processing. Good for quick prototyping
+				since there is no compilation step.
+			</p>       
+			<p style="display:inline; padding-bottom:10px;">Click here for</p>
+ 			<a id="tribute-link" target="_blank" href="https://www.perl.org/">Perl website<br></a>
+			<br>			
+		</div>
+
+		<!-- Here I listed a brief history as well as time line of all Perl versions released to date.
+			Perl is still actively being developed. Info is listed within a section that references 
+			selector "sec01". <ul> and <li> are used to organize the info. Also provided external 
+			link where appropriate 
+		-->
+		<section class="sec01" aria-labelledby="my-home">
+			<h2>Perl History</h2>
+			<p id="my-home">Timeline</p>	
+			
+			<ul>
+				<li>Version 1.0 of Perl was introducted by Larry Wall in 1987</li>	
+				<li>Version 2.x, 4.x and 5.x were introduced over the years</li>
+				<li>Latest released is 5.36.1</li>	
+				<li><a href="https://dev.perl.org/" target="_blank">The language is still under active  developed</a></li>						
+			</ul>			
+		</section>
+
+		<!-- Here I listed info pertaining to Perl. Info is listed within a section that references 
+			selector "sec01". <ul> and <li> are used to organize the info. Also provided external 
+			link where appropriate. <span> is not a necessity but I am using it for practice
+		-->		
+		<section class="sec01">
+			<h2>Perl Info </h2>
+			<ul>
+				<li>Perl is open-source and <span style="color:brown; font-weight:bolder;">free</span> for both personal and commercial use</li>	
+				<li>Supported on various operating system including Windows, Linux and Mac OS X</li>					
+				<li>Version 2.x, 4.x and 5.x were introduced over the years</li>
+				<li>Latest released is 5.36.1</li>
+				<li>Support for standard programming constructs including
+					<ol>
+						<li>Conditional</li>	
+						<li>Looping</li>
+						<li>Arrays and hash</li>		
+						<li>File IO</li>																	
+					</ol>
+				</li>						
+				<li>Support for more advanced programming feature
+					<ol>
+						<li>Regular Expression</li>	
+						<li>Object Orientated Programming</li>												
+					</ol>	
+				</li>	
+				<li>Rich collection of user supported modules <a href="https://www.cpan.org" target="_blank">CPAN</a></li>																				
+				<li>Python's support for ML and AI, has contributed to reduced users of Perl </li>					
+			</ul>					
+		</section>
+
+		<!-- Here I listed how user can get Perl on their system. Info is listed within a 
+			section that references selector "sec01". <ul> and <li> are used to organize the info.
+			Also provided external link where appropriate 	
+		-->			
+		<section class="sec01">
+			<h2>Where To Get Perl</h2>
+			<ul>
+				<li>Microsoft Windows
+					<ol>
+						<li><a href="https://www.activestate.com/products/perl/" target="_blank">ActiveState</a></li>	
+						<li><a href="https://strawberryperl.com/" target="_blank">Strawberry Perl</a></li>							
+					</ol>
+				</li>						
+				<li>Linux	
+					<ol>
+						<li>With Ubuntu Linux terminal, issue "sudo apt-get install perl" command</li>	
+						<li>Build from source code with "make, make test and make install" command</li>					
+					</ol>						
+				</li>							
+			</ul>		
+		</section>
+
+	</main>
+
+	<!-- Here, in the footer, I listed some interesting URL that user can go visit if they are curious, I am
+		also crediting GeeksForGeeks. I reference one of thr pictures on by their website.	
+	-->			
+	<footer class="foot01">
+		<p>To learn more about Perl visit the following links:</p>
+		<ul>			
+			<li><a href="https://learn.perl.org/faq/" target="_blank">FAQ</a></li>	
+			<li><a href="https://www.cpan.org/ports/index.html" target="_blank">Perl Ports</a></li>	
+			<li><a href="https://perl-begin.org/web-forums/" target="_blank">Perl Begineers</a></li>									
+		</ul>			
+
+		<p>Illustration Credits:</p>
+		<ul>
+			<li><a href="https://www.geeksforgeeks.org/perl-programming-language/" target="_blank">Image of Perl: GeeksforGeeks</a></li>	
+		</ul>	
+	</footer>	
+
+	<!-- Here I establish location when user presses "Project" accessibility button.
+			 Target is marked by "role", "aria-labelledby" and "id"
+	-->			
+
+	<section  class="sec01 hidden" aria-labelledby="my-proj">
+		<h5>This is my class project for MCC CIS133DA (summer 2023) </h5>
+		<p id="my-proj">On this page, I go over some info about Perl</p>
+	</section>
+
+
+</body>
+</html>

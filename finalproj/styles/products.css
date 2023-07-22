@@ -1,0 +1,167 @@
+
+div.centerX {
+    text-align: center;
+    margin-bottom: 100px;
+}
+  
+.h1class {
+    text-align: center;    
+    color: blue;
+    font-family: Verdana, sans-serif;;
+}
+
+/* ======================================================================= */
+/* for grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;    
+
+}
+
+.item_one{
+    /* background-color:cyan; */
+    background-color: rgb(255, 204, 153);   
+    border:2px solid black;
+    margin: 0 auto;    
+}
+
+.item_two{
+    background-color: rgb(255, 204, 153);   
+    text-align: center;
+    border:2px solid black;   
+    margin: 0 auto; 
+}
+
+.item_three{
+    background-color: rgb(255, 204, 153);   
+    text-align: center;
+    border:2px solid black;  
+    margin: 0 auto;  
+}
+
+.h3center{
+    text-align: center;
+    font-family: Verdana, sans-serif;;
+}
+
+
+
+
+/* ======================================================================= */
+/* Cards */
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+  .myDiv
+  {
+    height: 400px;
+    width: 450px;
+  }
+  .myDiv img
+  {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+  }
+
+
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+/* For navigation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  color: black;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  font-family: Verdana, sans-serif;;  
+  color:black;
+}
+
+
+
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+
+footer.myfooter{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul.ul_footer {
+    list-style-type: disc;
+    padding: 0;
+}
+
+li.li_footer {
+    float: left;
+    color: red;
+}
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+
+
+@media (min-width: 500px) and (max-width: 1000px){
+
+}
+
+
+
+/*
+    grid-template-columns: repeat(3, 33%);
+
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1;
+
+
+.ul_footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.li_footer {
+    float: right;
+    color: "black";
+}
+
+*/
+
