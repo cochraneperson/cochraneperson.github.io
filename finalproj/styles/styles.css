@@ -160,15 +160,15 @@ footer p{
 	padding-top: 4.5rem;
 }
 #survey{
-	background-image: url(../images/course-survey.png);
+	background-image: url(images/course-survey.png);
 	background-size: cover;
 }
 #product{
-	background-image: url(../images/product-page.png);
+	background-image: url(images/product-page.png);
 	background-size: cover;
 }
 #tribute{
-	background-image: url(../images/tr1bute-page.png);
+	background-image: url(images/tr1bute-page.png);
 	background-size: cover;
 }
 
